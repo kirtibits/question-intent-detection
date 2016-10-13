@@ -26,7 +26,7 @@ for question in file:
                break
             elif(re.search(r'(WRB)',f[u])):
                print'when type' 
-               print f[u]
+#               print f[u]
                break
             elif((f[u] in'WP') and (f[u+1]in'VBZ') or (f[u] in 'WP')or(f[u] in 'WP')and (f[u+1] in 'NN') and (f[u+2] in 'VBZ')):
                print 'wHat type'
