@@ -1,11 +1,4 @@
 #! /usr/bin/env python
-
-"""
-Created on Sun May  1 08:22:04 2016
-
-@author: rahulkumar
-"""
-
 import tensorflow as tf
 import numpy as np
 import corpus_handel
